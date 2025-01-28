@@ -1,0 +1,147 @@
+html, 
+body {
+/* CSS RESET */
+    margin: 0%;
+    padding: 0;
+    height: 100%;
+    background-color:#FDF7F4;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Open sans", "Helvetica", sans-serif;
+    scroll-behavior: smooth;
+    color: dark;
+    }
+
+
+.sidebar {
+    width:100%
+    background-color: #997C70;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.navbar-brand {
+    color:#FDF7F4; 
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor_texto{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    z-index: 1;
+}
+
+h1{
+    margin-inline: 20%;
+    text-align: center;
+}
+
+.contenedor_texto_animacion{
+    display: flex;
+    font-size:xx-large;
+    color: #685752;
+    align-items: center;
+}
+
+.barra_escritura{
+    width: 3px;
+    height: 50px;
+    margin-left: 5px;
+    background-color: #685752;
+    transform: rotate(10deg);
+    animation: barra-animacion 1s ease infinite;
+
+}
+
+/* barra escritura animacion */
+@keyframes barra-animacion {
+    50% {
+        opacity: 0;
+      }
+}
+
+.profilepic img {
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+    
+.
+
+/* color de texto etiquetas */
+
+h1 {
+    color:#685752; 
+    }
+    
+.aboutme {
+    color:#685752; 
+}  
+
+h2 {
+    color:#685752; 
+}
+
+h3 {
+    color:#685752;
+}
+
+.contenido h3 { 
+    text-align: center;
+
+}
+
+.contenido p {
+    text-align: center;
+}
+
+body.dark .contenido {
+    background-color: #685752;
+}
+body.dark .contenido p {
+    color: #efefef
+}
+
+body.dark .contenido h2 {
+    color: #efefef
+}
+
+body.dark .contenido h3 {
+    color: #efefef
+}
+
+
+.project1 {
+    text-align: center;
+}
+
+
+
+.project1 .pic1 img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+.project2 .pic2 img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+
+
+  
+  
